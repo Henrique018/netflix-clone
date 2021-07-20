@@ -1,0 +1,45 @@
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: #101011;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 500;
+  height: 15rem;
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.arrow {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #fff;
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 0.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.arrow--disabled {
+  fill: #101011;
+}
+
+/*# sourceMappingURL=carousel.css.map */

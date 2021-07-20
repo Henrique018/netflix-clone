@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  color: #f2f2f2;
+  background-color: #141414;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header__logo {
+  color: #e50914;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+}
+
+.header__ul {
+  display: flex;
+  list-style: none;
+}
+
+.header__li a {
+  color: #f2f2f2;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

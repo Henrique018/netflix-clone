@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+
+    <title>NETFLIX</title>
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h2 class="header__logo">NETFLIX</h2>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li class="header__li">
+            <a href="#">HOME</a>
+          </li>
+          <li class="header__li">
+            <a href="#">TV Series</a>
+          </li>
+          <li class="header__li">
+            <a href="#">Movies</a>
+          </li>
+          <li class="header__li">
+            <a href="#">Documentaries</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="banner">
+        <div class="container">
+          <h3 class="banner__title">LOREM IPSUM</h3>
+          <p class="banner__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic numquam
+            dicta non molestias consequatur rerum doloremque delectus adipisci
+            nobis deleniti dolorum atque quod natus sunt minima soluta, error
+            voluptate eveniet.
+          </p>
+          <div class="banner__buttons">
+            <button role="button" class="banner__btn">
+              <i class="fas fa-play"></i>
+              WATCH NOW
+            </button>
+            <button role="button" class="banner__btn">
+              <i class="fas fa-info-circle"></i>
+              MORE INFO
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <div class="navigation-wrapper">
+        <div id="my-keen-slider" class="keen-slider">
+          <div class="keen-slider__slide number-slide1">1</div>
+          <div class="keen-slider__slide number-slide2">2</div>
+          <div class="keen-slider__slide number-slide3">3</div>
+          <div class="keen-slider__slide number-slide4">4</div>
+          <div class="keen-slider__slide number-slide5">5</div>
+          <div class="keen-slider__slide number-slide6">6</div>
+        </div>
+        <svg
+          id="arrow-left"
+          class="arrow arrow--left"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"
+          ></path>
+        </svg>
+        <svg
+          id="arrow-right"
+          class="arrow arrow--right"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.js"></script>
+    <script src="./js/slider/index.js"></script>
+  </body>
+</html>

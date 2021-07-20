@@ -1,0 +1,14 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "a simple clone of the netflix page",
+  "main": "index.js",
+  "author": "Henrique Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.35.2"
+  },
+  "scripts": {
+    "sass": "sass --watch src/sass:src/css"
+  }
+}

@@ -1,4 +1,4 @@
-[class^="number-slide"],
+[class^=number-slide],
 [class*=" number-slide"] {
   background: #101011;
   display: flex;
@@ -7,7 +7,8 @@
   font-size: 5rem;
   color: #fff;
   font-weight: 500;
-  height: 15rem;
+  height: 25rem;
+  max-height: 100vh;
 }
 
 .navigation-wrapper {
@@ -27,8 +28,8 @@
 
 .arrow--left {
   left: 0.5rem;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .arrow--right {

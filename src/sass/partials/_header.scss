@@ -1,14 +1,13 @@
-
-
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  
+  margin: 0 3rem;
+
   &__logo {
     color: $primary-color;
     font-family: "Bebas Neue", sans-serif;
     font-size: 4rem;
+    margin-right: 2.5rem;
   }
 }
 
@@ -17,8 +16,18 @@
   list-style: none;
 }
 
-.header__li a {
-  color: $white;
-  font-size: 1.4rem;
-  text-decoration: none;
+.header__li {
+  margin-left: 1rem;
+
+  .header__link {
+    color: $white;
+    font-size: 1.4rem;
+    text-decoration: none;
+
+    &:active,
+    &:hover {
+      font-weight: bold;
+      color: #fff;
+    }
+  }
 }

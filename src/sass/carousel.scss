@@ -1,7 +1,7 @@
 @import "partials/variables";
 
 [class^="number-slide"],
-[class *=" number-slide"] {
+[class*=" number-slide"] {
   background: $grey;
   display: flex;
   align-items: center;
@@ -9,8 +9,9 @@
   font-size: 5rem;
   color: #fff;
   font-weight: 500;
-  height: 25rem;
+  height: 18rem;
   max-height: 100vh;
+  cursor: pointer;
 }
 
 .navigation-wrapper {
@@ -43,4 +44,9 @@
 
 .arrow--disabled {
   fill: $grey;
+}
+
+.navigation-wrapper__title {
+  font-size: 1.6rem;
+  margin: 1.8rem 0 1rem 1.5rem;
 }

@@ -1,5 +1,5 @@
-var slider = new KeenSlider("#my-keen-slider", {
-    slidesPerView: 4,
+const slider = new KeenSlider(".keen-slider", {
+    slidesPerView: 5,
     spacing: 4,
     created: function (instance) {
       document
@@ -22,15 +22,14 @@ var slider = new KeenSlider("#my-keen-slider", {
   })
   
   function updateClasses(instance) {
-    var slide = instance.details().relativeSlide
-    var arrowLeft = document.getElementById("arrow-left")
-    var arrowRight = document.getElementById("arrow-right")
+    let slide = instance.details().relativeSlide
+    let arrowLeft = document.getElementById("arrow-left")
+    let arrowRight = document.getElementById("arrow-right")
     slide === 0
       ? arrowLeft.classList.add("arrow--disabled")
       : arrowLeft.classList.remove("arrow--disabled")
     slide === instance.details().size - 1
       ? arrowRight.classList.add("arrow--disabled")
       : arrowRight.classList.remove("arrow--disabled")
-  
   }
   
